@@ -3,15 +3,19 @@ document.addEventListener("DOMContentLoaded", function() {
     let index = 0;
     const typingSpeed = 120; // السرعة بالمللي ثانية
     const typingSound = document.getElementById("typing-sound");
+    const typingSound2 = document.getElementById("typing-sound2");
+
 
     function typeEffect() {
       if (index < introText.length) {
+        typingSound2.play()
             document.getElementById("intro-text").innerHTML += introText.charAt(index);
             index++;
             setTimeout(typeEffect, typingSpeed);
         } else {
             document.getElementById("intro-text").style.display = 'none'
             document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
+            
                 typingSound.play(); // تشغيل الصوت
 
             showSlide(); // بدء عرض السلايد بعد كتابة النص
