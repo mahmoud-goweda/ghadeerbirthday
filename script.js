@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             document.getElementById("intro-text").style.display = 'none'
             document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
-            
                 typingSound.play(); // تشغيل الصوت
             showSlide(); // بدء عرض السلايد بعد كتابة النص
         }
