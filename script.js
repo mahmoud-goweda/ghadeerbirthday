@@ -8,20 +8,19 @@ document.addEventListener("DOMContentLoaded", function() {
       if (index < introText.length) {
             document.getElementById("intro-text").innerHTML += introText.charAt(index);
             index++;
-            typingSound.currentTime = 0; // إعادة تشغيل الصوت
-            setTimeout(() => {
-                
-                typingSound.play(); // تشغيل الصوت
-            }, 10);
             setTimeout(typeEffect, typingSpeed);
         } else {
             document.getElementById("intro-text").style.display = 'none'
             document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
+                typingSound.play(); // تشغيل الصوت
+
             showSlide(); // بدء عرض السلايد بعد كتابة النص
         }
     }
 
-    typeEffect();
+    // document.addEventListener('click', function() {
+    // }, { once: true });
+        typeEffect();
 });
 
 let slides = [
