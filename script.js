@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
             
                 typingSound.play(); // تشغيل الصوت
-
             showSlide(); // بدء عرض السلايد بعد كتابة النص
         }
     }
