@@ -4,27 +4,48 @@ document.addEventListener("DOMContentLoaded", function() {
     const typingSpeed = 120; // السرعة بالمللي ثانية
     const typingSound = document.getElementById("typing-sound");
     const typingSound2 = document.getElementById("typing-sound2");
+    let clicked = false
 
+function playa(){
 
+   
+        typingSound2.play()
+}
     function typeEffect() {
       if (index < introText.length) {
-        typingSound2.play()
             document.getElementById("intro-text").innerHTML += introText.charAt(index);
             index++;
             setTimeout(typeEffect, typingSpeed);
         } else {
-            document.getElementById("intro-text").style.display = 'none'
-            document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
-                typingSound.play(); // تشغيل الصوت
-            showSlide(); // بدء عرض السلايد بعد كتابة النص
+     
+            // setTimeout(() => {
+                
+            //     typingSound.play(); // تشغيل الصوت
+            // }, 30000);   
+                  document.getElementById("intro-text").style.display = 'none'
+
+        document.getElementById('startbtn').style.display = 'block'
+        document.getElementById('startbtn').innerHTML = '  اضغطي هنا بقى 😘😍 '
+
+
+            // showSlide(); // بدء عرض السلايد بعد كتابة النص
         }
     }
 
-    // document.addEventListener('click', function() {
-    // }, { once: true });
-        typeEffect();
+   
+    document.getElementById('startbtn').addEventListener('click', function() {
+           if(!clicked){
+                   typingSound.play(); // تشغيل الصوت
+               typeEffect();
+           } else{
+           typingSound2.play()
+            document.querySelector('.slider').style.display = 'block'; // عرض السلايدر بعد كتابة النص
+               showSlide()
+           }
+           document.getElementById('startbtn').style.display = 'none'
+           clicked = true;
+           });
 });
-
 let slides = [
     {
         image: 'https://lh3.googleusercontent.com/pw/AP1GczPhVBKyCWRIMYziNRzOCsyAavP-2ptPeuBUYfuLJJFmbzIGBBXSYRw2bTZv65D_gpoNfaiuBSnjNmypvX-aCI_yHrhb-T1qRN0tLEdNUTFB5t7wKdUa5-O8N-9EOow_gNcDxP8Ha10GBzv91GNHJTC4Fw=w1233-h927-s-no-gm?authuser=0',

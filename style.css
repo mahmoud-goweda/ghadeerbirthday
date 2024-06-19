@@ -54,3 +54,17 @@ h1 {
     width: 80%;
     box-sizing: border-box;
 }
+
+
+#startbtn{
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #e0e0e0;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    font-size: 40px;
+}
