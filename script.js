@@ -47,10 +47,10 @@ function playa(){
            });
 });
 let slides = [
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczPhVBKyCWRIMYziNRzOCsyAavP-2ptPeuBUYfuLJJFmbzIGBBXSYRw2bTZv65D_gpoNfaiuBSnjNmypvX-aCI_yHrhb-T1qRN0tLEdNUTFB5t7wKdUa5-O8N-9EOow_gNcDxP8Ha10GBzv91GNHJTC4Fw=w1233-h927-s-no-gm?authuser=0',
-        text: 'كم أحببتك حتى أصبح الحب في قلبي نارًا.'
-    },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczPhVBKyCWRIMYziNRzOCsyAavP-2ptPeuBUYfuLJJFmbzIGBBXSYRw2bTZv65D_gpoNfaiuBSnjNmypvX-aCI_yHrhb-T1qRN0tLEdNUTFB5t7wKdUa5-O8N-9EOow_gNcDxP8Ha10GBzv91GNHJTC4Fw=w1233-h927-s-no-gm?authuser=0',
+    //     text: 'كم أحببتك حتى أصبح الحب في قلبي نارًا.'
+    // },
     {
         image: 'https://lh3.googleusercontent.com/pw/AP1GczP0hqLus9dT8p1uC6E-h_NV2sxD8U0yJzL9oVrm-lm8dklRek88SCYsZ2HTMED-AcA5G6_6HkGvSkHs_ngeiY-rDLIazaSlA4RnlFEtIuonbNlPcKChfL1DvAw9y-M92H1q3qGFpM_jl2MmBu59tooewA=w1233-h927-s-no-gm?authuser=0',
         text: 'يا حبيبتي، كل الحب الذي في الكون لا يكفي لحبك.'
@@ -63,10 +63,10 @@ let slides = [
         image: 'https://lh3.googleusercontent.com/pw/AP1GczP1gUlGTl1Rpr2BS4YV-22NimZRG2cr03MoBYpFLGtCNeUau3W5FhwBQUjfkfhg49Mcr1xLCXAh2w-e0Yrd99MGaLix2HkW7bpEzw0osu7X004j0FY6em42VjWlunjC2fxw1HDsqMnYRDztBonnIOh35w=w1233-h927-s-no-gm?authuser=0',
         text: 'أحبكِ أكثر مما أستطيع التعبير عنه بالكلمات.'
     },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczOpBx02La_kjywPNfpCTcme4Ww9BG0p4AgECHFIJV7BT721y0gAtL6gQmXGU8g3emYiRD7-Q6Okd20Hm5OXaGy1vhOZgX-Iuj_0iHs2MMYpin6_cslR5kfdlJrFlvSnNLoNIdZ8ZbTeVgWGPCyThwvQUg=w1233-h927-s-no-gm?authuser=0',
-        text: 'يا أجمل حب عرفته، ويا أجمل قدر كتبته.'
-    },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczOpBx02La_kjywPNfpCTcme4Ww9BG0p4AgECHFIJV7BT721y0gAtL6gQmXGU8g3emYiRD7-Q6Okd20Hm5OXaGy1vhOZgX-Iuj_0iHs2MMYpin6_cslR5kfdlJrFlvSnNLoNIdZ8ZbTeVgWGPCyThwvQUg=w1233-h927-s-no-gm?authuser=0',
+    //     text: 'يا أجمل حب عرفته، ويا أجمل قدر كتبته.'
+    // },
     {
         image: 'https://lh3.googleusercontent.com/pw/AP1GczP2Oynk6atzdRbsHeQNTxEqzvpnOa3fZq0WOArK1CMQKY35sewBpoBhy0rNASDmKSrCgT2y86c3qDS292j4kJSF-qtqEr6B1YrSE7VmYKLriy8Zv2sa5BefGc9R8_dthZgjzL66ezS79pulCBgKkUZ1nw=w1233-h927-s-no-gm?authuser=0',
         text: 'أنتِ لستِ حلمًا، بل حقيقة أعيشها كل يوم.'
@@ -75,46 +75,46 @@ let slides = [
         image: 'https://lh3.googleusercontent.com/pw/AP1GczPayWW377PK1N3riNJrtbw1WJaFAH45JKIiV9TjcxoSEi4Uu1ALvUYBBZHZFjI5PZVp22VaizrZ74HzSrAqVXXoJ3ecswGFaYd9GsgozA1akgEu4kUTBkAk5jNX4qIMy5F3GLJBR5jw1JXn5tYkWxe1KQ=w1233-h927-s-no-gm?authuser=0',
         text: 'أحبكِ حتى ينتهي الحب من الوجود.'
     },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczN1yuwQlcxDD_himYnhZeM7wbdtsht_KvY8Er9VKa5gKP1dJ6gSyuOoezYAYYbBes5Paz14-4GKuX15svmgxZdY9oF6mmBuhUQdgQkjJ04xSCMaxMA3-30CT_tKKSXs_k0fTmCncAVU5pKaEjbAGIBvyg=w1234-h927-s-no-gm?authuser=0',
-        text: 'يا حبيبتي، كل لحظة معكِ هي عيد.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczPcUyiMZq1YU97bNYq1NcV23JU0FgoYIXfSBP1QLQVYPU6H64LIpVVL3Etw0zlscZALIEDy-H0elV1iSyxjGTBpmHJXvIWUt684-Y4QcUeykZE_ruKALQ44qe93Sv6fLLU2-JMsGOCXkF3LW_mK05eU4Q=w1234-h927-s-no-gm?authuser=0',
-        text: 'أنتِ الشمس التي تضيء حياتي.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczO_6X5IewSX5DNfgvpKhASg4p5r_qRdseWWKHWht_vrCWOS0duY8i7kwzyU1pE31U9oaXVIr74eCbMpHxLJDj_ppgkKsE4KjGle4qt1zM7JxgCeXTxZarHIXf-sT3SGBsZxO9a8UHxdGFpH5WaAZrJj9g=w1236-h927-s-no-gm?authuser=0',
-        text: 'أحبكِ حبًا لا يمكن قياسه.'
-    },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczN1yuwQlcxDD_himYnhZeM7wbdtsht_KvY8Er9VKa5gKP1dJ6gSyuOoezYAYYbBes5Paz14-4GKuX15svmgxZdY9oF6mmBuhUQdgQkjJ04xSCMaxMA3-30CT_tKKSXs_k0fTmCncAVU5pKaEjbAGIBvyg=w1234-h927-s-no-gm?authuser=0',
+    //     text: 'يا حبيبتي، كل لحظة معكِ هي عيد.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczPcUyiMZq1YU97bNYq1NcV23JU0FgoYIXfSBP1QLQVYPU6H64LIpVVL3Etw0zlscZALIEDy-H0elV1iSyxjGTBpmHJXvIWUt684-Y4QcUeykZE_ruKALQ44qe93Sv6fLLU2-JMsGOCXkF3LW_mK05eU4Q=w1234-h927-s-no-gm?authuser=0',
+    //     text: 'أنتِ الشمس التي تضيء حياتي.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczO_6X5IewSX5DNfgvpKhASg4p5r_qRdseWWKHWht_vrCWOS0duY8i7kwzyU1pE31U9oaXVIr74eCbMpHxLJDj_ppgkKsE4KjGle4qt1zM7JxgCeXTxZarHIXf-sT3SGBsZxO9a8UHxdGFpH5WaAZrJj9g=w1236-h927-s-no-gm?authuser=0',
+    //     text: 'أحبكِ حبًا لا يمكن قياسه.'
+    // },
     {
         image: 'https://lh3.googleusercontent.com/pw/AP1GczOW3i9Fls_J_RrjI6N3zbJyOS7mBkDGp5hvaI-D7q579ONXBcb2tqSNEd61qaDKOw17_SQq1R8IglJXynYB29TUm24XArANo5_TyU8mPhEpZNjyLXMMJeO9h5qMZgaql-0vDzjehFo-zeDLebmhUTkXcg=w1233-h927-s-no-gm?authuser=0',
         text: 'يا حبي، أنتِ النور الذي ينير ظلمتي.'
     },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczNlCbxhNFX-lWWIkVRinzcvDvYcxAQMF5VeVl3ctzQ_3iREJuS-pkt1k30laORPMilUUOKtnAXjv7JMwvk7VmWD3y4v8h6XWUEKVB8JTHPj3JI0qlFGP2SVIuBHrPAUFD30il0KaRcYHdpdeMTX7CtEYQ=w1233-h927-s-no-gm?authuser=0',
-        text: 'أنتِ القلب الذي ينبض بالحب.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczN9d-f0lIP0Zc0h3XOCgILDF7QkBRGllK7Ye03TXIw6wl3tOUv7wtwwP5rnRVW76gFgxmCvhFEIRDFY3V3U-hNFFq2vHFZzRPUV33XoICrlhbICwPRL8EH4igbdbAPxxlibbmyBK6JkdlA0DdLTVjsluw=w697-h927-s-no-gm?authuser=0',
-        text: 'أحبكِ أكثر مما تتخيلين.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczMNB8v5stPmyAahmJ0wfu3ykkpCA9PVdEOd9nP6qso8By826Mjq9cLzrSlFG8p7qijdWRbJNbgNDQRxroOUJNW7rj6iJ_aWlnzROWyZ5VctpoAPz2lZNmC-PlfY4DJCQdhiZHmeKuiI0g374C0v4eZT7A=w1236-h927-s-no-gm?authuser=0',
-        text: 'يا حبي، أنتِ الأمل الذي أعيش لأجله.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczPyNraEuGZK7t6TqQT-QOSMUyJmUyKZ3psgCOI414yju3CEWJAJX_nGV88dgLw-dkvTxmIcgDqTCkRv9LVm1NwMeMbR3tcRRIX-6eTrOazXPferqxqjTyj4VTicU0Mtex8aWdnEm7Egi_KVx5FjPykcBQ=w1236-h927-s-no-gm?authuser=0',
-        text: 'أنتِ الحلم الذي تحقق.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczMZdFybc_Az4Liv7W8-xqXbQ39JfTItIXfeg4Wh3hDIxlNLzMJcvQMWwBm7wBQLak4PnY566F7Zjy1DInx2YtZFytZNmTSbYFtU4fiL_D8K7iXBJkmGvEIX0iqadRocACv_3fK5z9wHJDM3o5Ck9z2Muw=w1236-h927-s-no-gm?authuser=0',
-        text: 'يا حبيبتي، كل لحظة معكِ هي نعمة.'
-    },
-    {
-        image: 'https://lh3.googleusercontent.com/pw/AP1GczN61taGWXkXuyp_BSRl8Yo3M-j0uWrMiZt-63bdpya5dhzUtsOWX6wpY9JLYG2l5uUc5TccbFK90px_BzyFZvG4tEj8vq2tUt1yNrfr0dbOcVtsUHEiqk-ZBW_hqYAhKzU3C_ogXXsnnYGP2xo0_MP-ig=w1233-h927-s-no-gm?authuser=0',
-        text: 'أنتِ الزهرة التي تزين حياتي.'
-    },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczNlCbxhNFX-lWWIkVRinzcvDvYcxAQMF5VeVl3ctzQ_3iREJuS-pkt1k30laORPMilUUOKtnAXjv7JMwvk7VmWD3y4v8h6XWUEKVB8JTHPj3JI0qlFGP2SVIuBHrPAUFD30il0KaRcYHdpdeMTX7CtEYQ=w1233-h927-s-no-gm?authuser=0',
+    //     text: 'أنتِ القلب الذي ينبض بالحب.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczN9d-f0lIP0Zc0h3XOCgILDF7QkBRGllK7Ye03TXIw6wl3tOUv7wtwwP5rnRVW76gFgxmCvhFEIRDFY3V3U-hNFFq2vHFZzRPUV33XoICrlhbICwPRL8EH4igbdbAPxxlibbmyBK6JkdlA0DdLTVjsluw=w697-h927-s-no-gm?authuser=0',
+    //     text: 'أحبكِ أكثر مما تتخيلين.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczMNB8v5stPmyAahmJ0wfu3ykkpCA9PVdEOd9nP6qso8By826Mjq9cLzrSlFG8p7qijdWRbJNbgNDQRxroOUJNW7rj6iJ_aWlnzROWyZ5VctpoAPz2lZNmC-PlfY4DJCQdhiZHmeKuiI0g374C0v4eZT7A=w1236-h927-s-no-gm?authuser=0',
+    //     text: 'يا حبي، أنتِ الأمل الذي أعيش لأجله.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczPyNraEuGZK7t6TqQT-QOSMUyJmUyKZ3psgCOI414yju3CEWJAJX_nGV88dgLw-dkvTxmIcgDqTCkRv9LVm1NwMeMbR3tcRRIX-6eTrOazXPferqxqjTyj4VTicU0Mtex8aWdnEm7Egi_KVx5FjPykcBQ=w1236-h927-s-no-gm?authuser=0',
+    //     text: 'أنتِ الحلم الذي تحقق.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczMZdFybc_Az4Liv7W8-xqXbQ39JfTItIXfeg4Wh3hDIxlNLzMJcvQMWwBm7wBQLak4PnY566F7Zjy1DInx2YtZFytZNmTSbYFtU4fiL_D8K7iXBJkmGvEIX0iqadRocACv_3fK5z9wHJDM3o5Ck9z2Muw=w1236-h927-s-no-gm?authuser=0',
+    //     text: 'يا حبيبتي، كل لحظة معكِ هي نعمة.'
+    // },
+    // {
+    //     image: 'https://lh3.googleusercontent.com/pw/AP1GczN61taGWXkXuyp_BSRl8Yo3M-j0uWrMiZt-63bdpya5dhzUtsOWX6wpY9JLYG2l5uUc5TccbFK90px_BzyFZvG4tEj8vq2tUt1yNrfr0dbOcVtsUHEiqk-ZBW_hqYAhKzU3C_ogXXsnnYGP2xo0_MP-ig=w1233-h927-s-no-gm?authuser=0',
+    //     text: 'أنتِ الزهرة التي تزين حياتي.'
+    // },
     {
         image: 'https://lh3.googleusercontent.com/pw/AP1GczMo1vYzipTMXctn5OXX7FsRm9eyNeEw68s3t8kha6gYt6POIPzBeK_rzHTudw0uZ4h1Xm5cQzOfH1sUO-6ivkL47H2Cc4X5x56zC8EdTvHnbRn86DifXHnir5ku2IjocRw8DWv4phknE2MXWnTHSBWecg=w556-h927-s-no-gm?authuser=0',
         text: 'أحبكِ حبًا يفوق الخيال.'
